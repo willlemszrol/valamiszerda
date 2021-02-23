@@ -1,12 +1,14 @@
 body{
 margin: 0;
 padding: 0;
+background-color: rgba(80, 56, 24, 0.836);
 }
 #menüszalag{
     width: 100%;
     background-color:var(--menu);
     color: var(--feher);
     height: 50px;
+    text-align: center;
 }
 :root{
     --hatter:#8C7B65;
@@ -45,12 +47,46 @@ a:hover{
 }
 #kep{
 position: relative;
-top: 25px;
 left: 250px;
 }
 #vala{
     height: 300px;
     position: relative;
-top: 25px;
-left: 100px;
+top: 10px;
+left: 150px;
+}
+#vidito{
+    
+    position: relative;
+    top: 0px;
+    left: 110px;
+    margin: auto;
+    
+}
+p{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#ajto{
+    position: relative;
+    left: 200px;
+    height: 320px;
+}
+#követ{
+    height: 300px;
+    left: 80px;
+    position: relative;
+}
+#valamigomb{
+    top: 5px;
+    position: relative;
+    left: 140px;
+}
+#arrow{
+    height: 120px;
+    top: 70px;
+    position: relative;
+    left: 290px;
 }
